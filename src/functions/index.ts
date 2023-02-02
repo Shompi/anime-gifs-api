@@ -7,7 +7,7 @@ export interface AnimeApiReponse {
 	url: string | null
 };
 
-export async function getAnimeGif(gifType: GifType): Promise<AnimeApiReponse> {
+export async function getAnimeGif(gifType: GifType): Promise<AnimeApiReponse | null> {
 
 	if (!(gifType in Endpoints))
 		throw new Error("Unknown Endpoint.")
