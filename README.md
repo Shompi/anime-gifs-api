@@ -1,4 +1,4 @@
-# anime-images-api
+# Anime-Images-Api Wrapper
 This is a wrapper for the anime images api hosted on
 https://anime-api.hisoka17.repl.co/
 
@@ -15,12 +15,10 @@ if (!url) {
 
 console.log(url) // Should log a valid gif url
 ```
-----------
-# Docs
+## Functions
 ## `getAnimeGif(gifType: GifType)`
-###### returns `Promise<AnimeApiResponse | null>`
-----------
-# Types
+**returns** `Promise<AnimeApiResponse | null>`
+## Types
 ### AnimeApiResponse
 ```typescript
 interface AnimeApiResponse {
@@ -31,7 +29,6 @@ interface AnimeApiResponse {
 ```typescript
 type GifType = "Hug" | "Kiss" | "Slap" | "Wink" | "Pat" | "Cuddle" | "Waifu"
 ```
-----------
 ## List of available Endpoints
 |Name|SFW|
 |:-:|:-:|
