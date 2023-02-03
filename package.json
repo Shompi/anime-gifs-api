@@ -1,6 +1,6 @@
 {
   "name": "anime-gifs-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "anime-images-api wrapper, wrapper for https://anime-api.hisoka17.repl.co API",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
