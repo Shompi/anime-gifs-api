@@ -9,7 +9,7 @@ This is a wrapper for the anime images api hosted on
 const { getAnimeGif, nsfwAnimeGif } = require('anime-gifs-api')
 
 const { url: sfwGifUrl } = await getAnimeGif("Hug") // You will get autocompletion here
-const { url: nsfwGifUrl } = await getAnimeGif("Boobs") // You will get autocompletion here
+const { url: nsfwGifUrl } = await nsfwAnimeGif("Boobs") // You will get autocompletion here
 
 if (!sfwGifUrl || !nsfwGifUrl) {
   // Possibly an error within the api
@@ -18,7 +18,7 @@ if (!sfwGifUrl || !nsfwGifUrl) {
   // you should not handle a missing url like this.
 }
 
-console.log(url) // Should log a valid gif url
+console.log(sfwGifUrl, nsfwGifUrl) // Should log a valid gif url
 ```
 
 ## Functions
