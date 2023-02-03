@@ -7,5 +7,12 @@ export const Endpoints = {
 	"Wink": "/img/wink",
 	"Pat": "/img/pat",
 	"Cuddle": "/img/cuddle",
-	"Waifu": "/img/waifu"
+	"Waifu": "/img/waifu",
+	"Kill": "/img/kill",
+}
+
+export const NSFWEndpoints = {
+	"Hentai": "/img/nsfw/hentai",
+	"Boobs": "/img/nsfw/boobs",
+	"Lesbian": "/img/nsfw/lesbian"
 }

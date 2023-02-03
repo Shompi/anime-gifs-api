@@ -16,7 +16,7 @@ if (!url) {
 console.log(url) // Should log a valid gif url
 ```
 ## Functions
-## `getAnimeGif(gifType: GifType)`
+### `getAnimeGif(gifType: GifType)`
 **returns** `Promise<AnimeApiResponse | null>`
 ## Types
 ### AnimeApiResponse
@@ -32,10 +32,13 @@ type GifType = "Hug" | "Kiss" | "Slap" | "Wink" | "Pat" | "Cuddle" | "Waifu"
 ## List of available Endpoints
 |Name|SFW|
 |:-:|:-:|
-|Hug|✅|
-|Kiss|✅|
-|Slap|✅|
-|Wink|✅|
-|Pat|✅|
-|Cuddle|✅|
-|Waifu|✅|
+|**Hug**|✅|
+|**Kiss**|✅|
+|**Slap**|✅|
+|**Wink**|✅|
+|**Pat**|✅|
+|**Cuddle**|✅|
+|**Waifu**|✅|
+|**Hentai**|❌|
+|**Boobs**|❌|
+|**Lesbian**|❌|
