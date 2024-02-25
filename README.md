@@ -1,5 +1,9 @@
 # Anime-Images-Api Wrapper
 
+## Deprecation notice
+
+This package has been deprecated because the API this wrapper was for has been decommissioned.
+
 This is a wrapper for the anime images api hosted on
 <https://anime-api.hisoka17.repl.co/>
 
